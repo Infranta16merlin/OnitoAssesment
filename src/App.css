@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+.form{
+  position: relative;
+  padding-top: 2%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.first-input{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+
+.second-input{
+  display: flex;
+  justify-content: space-between;
+}
+.third-input{
+  display: flex;
+  justify-content: space-between;
+}
+.fourth-input{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fifth-input{
+  display: flex;
+  justify-content: space-between;
+}
+.contact-select{
+  position: relative;
+  right: 6%
+}
+.contact-select-2{
+  position: relative;
+  left: 1%
+}
+.contact-select-3{
+  position: relative;
+  left: 5%
+}
+
+.contact-select-4{
+  position: relative;
+  right: 8%
+}
+
+.contact-select-5{
+  position: relative;
+  right: 15%
+}
+
+
+.contact-select-6{
+  position: relative;
+  right: 21%
+}
+
+.contact-select-main{
+  position: relative;
+  right: 13%
+}
+
+.btn{
+  background-color: #4c68af; /* Green */
+  border: none;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  left: 35%;
 }
